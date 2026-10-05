@@ -1,0 +1,18 @@
+25-09-2026
+------------>
+                    3. Other Tags:
+                            - <div></div>, <p></p>, <span></span>, All List tags, media Tags.
+                    4. Unpaired tags/ Self-Closing Tags:
+                            - Any Tag that having only Opening Tag.
+                            - Eg: <br>, <img>, <hr>, <col>, <input>, <mets>,..
+                    5. Img Tag:
+                            - <img> is the one of the Media Tag used to Display the Images.
+                            Attributes:
+                                1. src(source):
+                                        1. Absolute Path: 
+                                2. alt 
+                                3. width
+                                4. height
+                                5. style
+                                6. id
+                                7. class
