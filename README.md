@@ -1,4 +1,4 @@
-###  Java Full-Stack Journey (JAVA-FS)
+##  Java Full-Stack Journey (JAVA-FS)
 
 Hey there! Welcome to my repo. This is where I am dumping everything I learn while figuring out how Java Full-Stack development works.
 
