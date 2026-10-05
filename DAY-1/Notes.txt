@@ -1,0 +1,27 @@
+23-09-2026
+------------>
+Web Applications:   Any Application that Run on the Browser.
+    Types:  1. Static Web App:
+                - Any Web App that Doesn't have Functionalities.
+                - Here we require only (HTML & CSS).
+            2. Dynamic Web App:
+                - Any Web App that having Functionalities.
+                - Here we require (HTML, CSS & JS).
+
+HTML:   Skeleton of the Web
+    Tags:   - Tags are the Pre-Defined words which are enclosed with both opening and closing of Angular brackets.
+            - Eg: <-></->
+            Types:  1. Paired Tags:
+                            - Any Tag having both Opening and Closing tag.
+                            - Eg : <html> - </html>, <head> - </head>
+                    2. Formatting Tags:
+                            - <b></b>: Bold
+                            - <strong><strong>: Bold
+                            - <i></i>: Italic
+                            - <em></em>: Italic
+                            - <mark></mark>: Light the content
+                            - <u></u>: Underline
+                            - <sub></sub>: Subscript
+                            - <sup></sup>: Superscript
+                            - <marquee></marquee>: To Scroll content
+                            - <centre></centre>: Align cont to Centre (Only for Block lvl elems).
