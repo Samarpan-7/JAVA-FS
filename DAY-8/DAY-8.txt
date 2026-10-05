@@ -1,0 +1,37 @@
+1-10-2026
+---------->
+                                        - loops:
+                                                1. for
+                                                2. while
+                                                3. do while 
+                                                4. for-of (Arrays / Strings) - gets only values
+                                                5. for-in (Arrays / Strings) - gets only indexes
+                                                6. forEach // Higher Order function.
+                                                        Eg: arr.forEach((val, indx, a[])=>{--  --})
+                                                7. map()
+                                                8. filter()
+                                                9. reduce()
+
+                                - Objects
+                                        - A Real Time enitities used to store data in Key-Value pair.
+                                                1. Literal way
+                                                        #Syntax: variableType varName = new Object({
+                                                                 key1:value,
+                                                                 key2:value
+                                                                 })
+                                - Functions
+                                        - They are the Block of statements to execute the code.
+                                        - Types:
+                                                1. User Defined Func 
+                                                2. Predefined Func 
+                                        - Ways of Declaration of Func:
+                                                - Anonymous Func
+                                                - Normal/Named Func
+                                                - Functional Expression
+                                                - First class Func
+                                                - Immediate Invoking Func(IIF)/ Self-calling Func
+                                                - Arrow Func (ES6)
+                                                - Nested Func
+                                                - Higher Order Func
+                                                - Callback Func
+                                                - Genarator Func
