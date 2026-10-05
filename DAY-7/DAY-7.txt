@@ -1,0 +1,67 @@
+30-09-2026
+----------->
+Javascript:
+        - Js is a scripting language as well as programming language
+        - Js is Dynamically typed programming language
+        - Js having single Call Stack
+        Uses:
+                - we can build Dynamic web Applications
+                - we can add functionalities to web pages
+                - we can achieve DOM (Document Obj Model) functionalities using that we can also Manipulate HTML and CSS
+                - we can Fetch data from server(API's) and also send data to Server (API's)
+        History:
+                - mocha (1995) by NetScope (browser company)
+                |- live script
+                |- Javascript
+                |- ECMA added new features then, Released 1st version -> ES1 (ECMA script version1)
+                |- stable version ES6
+                |- Present Version "ES16" in Apr 2026.
+        Implements:
+                1. Inline JS
+                        eg: <button onclick="> </button>
+                2. Internal JS
+                        *defer keyword is used to display and execute the Js code at last at the Browser.
+                        eg: <script defer> </script>
+                3. External JS
+                        eg: <link rel=">
+Node.js: A Js Run time Env that can be capable of creating a Virtual Space Internally.
+ver: node -v
+
+Q. write down 15 Browser names and their respective Js Engine Names.
+Q. write depricated keyword.
+
+        Tokens: Tokens are the Smallest units of Js code.
+                1. Identifiers: 
+                        - Used for the Purpose of Naming
+                        - we cannot use Keywords
+                        - eg: Variable name, class name, function name (method names)
+                2. Keywords:
+                        - They are Predefined words which have its own meaning
+                        - There are total 66 Keywords
+                        - eg: 
+                3. Literals:
+                        - The Values given to the any Varaiable
+                4. Operators:
+                        - Any Special symbol that is used to perform any of the operation
+                5. Separators:
+                        - Eg: ., , "", '', ``, :, ;, {}, [], (), <>
+                6. Comments:
+                        1. Single line //
+                        2. Multi line /* */
+        DataTypes:
+                - They Represent what type of Data we are Storing on that Variable.
+                Types:
+                        1. Primitive: Immutable values.
+                                - number
+                                - string
+                                - boolean
+                                - null
+                                - undefine
+                                - symbol
+                                - bigint
+                        2. Non-Primitive: Mutable values.
+                                - Arrays
+                                        - Linear DS that are used to Store collection of Homogenous or Heterogenous Data.
+                                        - Array Declaration:
+                                                1. Literal way 
+                                                2. new Keyword
