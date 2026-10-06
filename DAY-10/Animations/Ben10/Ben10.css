@@ -1,0 +1,55 @@
+.omnitrix-dial {
+    width: 200px;
+    height: 200px;
+    background-color: #000000;
+    border: 18px solid #55585d;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 
+        inset 0 0 10px rgba(0, 0, 0, 0.8),
+        0 4px 15px rgba(0, 0, 0, 0.5);
+    
+    /* Smooth handling if you chain multiple rotations */
+    transition: transform 0.4s ease-in-out;
+}
+
+/* Creating the iconic Ben 10 Hourglass symbol inside the dial */
+.omnitrix-dial::before, 
+.omnitrix-dial::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 65px solid transparent;
+    border-right: 65px solid transparent;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Top green shape of the hourglass */
+.omnitrix-dial::before {
+    border-top: 82px solid #77cb23;
+    top: 12px;
+}
+
+/* Bottom green shape of the hourglass */
+.omnitrix-dial::after {
+    border-bottom: 82px solid #77cb23;
+    bottom: 12px;
+}
+
+/* The rotation class triggered via your JavaScript */
+.rotate-animation {
+    animation: rotateOmnitrix 0.5s ease-in-out forwards;
+}
+
+/* Animates a smooth 90-degree snap turn mimicking the show */
+@keyframes rotateOmnitrix {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(90deg);
+    }
+}

@@ -1,0 +1,22 @@
+06-10-2026:
+----------->
+Animations in CSS:
+    Properties:
+        - animation-name
+        - animation-duration
+        - animation-timing-function
+        - animation-delay
+        - animation-iteration-count
+        - animation-direction
+    shorthand: myName 2s linear infinite normal
+
+Media Queries: Help to create a Responsive website.
+
+Positions:
+- static: default position (top, right, bottom, left, z-index properties have No Effect)
+- relative: element is relative to itself. (top, right, bottom, left, z-index will work)
+- absolute: positioned relative to its Closest positioned ancestor (removed form the flow)
+- fixed: positioned to relativeto browser.
+- sticky: positioned to the user's scroll position.
+z-index: It decides the "Stack level" of the elements.
+z-index: auto(0)/ 1/ 2/ -1/ -2, ...

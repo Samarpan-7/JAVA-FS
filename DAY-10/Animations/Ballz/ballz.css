@@ -1,0 +1,15 @@
+.ballz{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border-radius: 50%;
+    animation: ballz 1s linear 2s infinite alternate;
+}
+@keyframes ballz{
+    form{
+        transform: translateY(-900px);
+    }
+    to{
+        transform: translateY(30px);
+    }
+}

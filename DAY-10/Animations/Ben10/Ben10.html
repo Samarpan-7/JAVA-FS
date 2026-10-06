@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accurate Omnitrix Dial</title>
+    <style>
+        body {
+            background-color: #111;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        /* The container for the middle part */
+        .omnitrix-dial-container {
+            width: 250px;
+            height: 250px;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Target the SVG graphic itself for rotation */
+        .omnitrix-dial-svg {
+            width: 100%;
+            height: 100%;
+            transition: transform 0.4s ease-in-out;
+        }
+
+        /* Animation class applied by JavaScript */
+        .rotate-animation {
+            animation: snapTurn 0.4s ease-in-out forwards;
+        }
+
+        @keyframes snapTurn {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(90deg); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="omnitrix-dial-container" onclick="spinDial()">
+        <!-- SVG Graphic matching the exact shapes of the image -->
+        <svg class="omnitrix-dial-svg" id="omnitrixDial" viewBox="0 0 200 200" xmlns="http://w3.org">
+            <!-- Dark Inner Background -->
+            <circle cx="100" cy="100" r="96" fill="#000000" stroke="#1d1d1b" stroke-width="3"/>
+            
+            <!-- Exact Hourglass Shape Geometry -->
+            <path d="M 100 100 
+                     Q 60 40, 24 54 
+                     A 96 96 0 0 1 176 54 
+                     Q 140 40, 100 100 
+                     Q 140 160, 176 146 
+                     A 96 96 0 0 1 24 146 
+                     Q 60 160, 100 100 Z" 
+                  fill="#78c81c" stroke="#1d1d1b" stroke-width="4"/>
+
+            <!-- Grey Ring Over the Top Border -->
+            <circle cx="100" cy="100" r="92" fill="none" stroke="#55585d" stroke-width="14"/>
+            
+            <!-- Cross Section Segment Lines on Grey Ring -->
+            <line x1="100" y1="4" x2="100" y2="12" stroke="#1d1d1b" stroke-width="3"/>
+            <line x1="100" y1="188" x2="100" y2="196" stroke="#1d1d1b" stroke-width="3"/>
+            <line x1="4" y1="100" x2="12" y2="100" stroke="#1d1d1b" stroke-width="3"/>
+            <line x1="188" y1="100" x2="196" y2="100" stroke="#1d1d1b" stroke-width="3"/>
+            
+            <!-- Outermost Rim Trim -->
+            <circle cx="100" cy="100" r="98" fill="none" stroke="#1d1d1b" stroke-width="2"/>
+        </svg>
+    </div>
+
+    <script>
+        function spinDial() {
+            const dial = document.getElementById('omnitrixDial');
+            dial.classList.add('rotate-animation');
+            
+            setTimeout(() => {
+                dial.classList.remove('rotate-animation');
+            }, 400); 
+        }
+    </script>
+
+</body>
+</html>

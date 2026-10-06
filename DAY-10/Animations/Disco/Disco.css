@@ -1,0 +1,37 @@
+body{
+    margin: 0px;
+    height: 100vh;
+    background-color: cyan;
+    display: flex;
+    font-family: cursive;
+    justify-content: center;
+    align-items: center;
+    animation: disco 1s linear 1s infinite normal;
+}
+
+@keyframes disco{
+    0%{
+        background-color: violet
+    }
+    10%{
+        background-color: indigo;
+    }
+    20%{
+        background-color: blue;
+    }
+    30%{
+        background-color: green;
+    }
+    40%{
+        background-color: yellow;
+    }
+    50%{
+        background-color: orange;
+    }
+    60%{
+        background-color: red;
+    }
+    70%{
+        background-color: azure;
+    }
+}

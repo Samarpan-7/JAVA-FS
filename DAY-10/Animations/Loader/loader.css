@@ -1,0 +1,17 @@
+.loader{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border-radius: 50%;
+    border: 20px solid grey;
+    border-top: 20px solid limegreen;
+    animation: rotate 2s linear 2s infinite normal;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
