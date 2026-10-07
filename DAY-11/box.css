@@ -1,0 +1,30 @@
+div{
+    height: 200px;
+    width: 200px;
+}
+#box1{
+    background-color: magenta;
+    position:static;
+    bottom: 30px;
+}
+#box2{
+    background-color: cyan;
+    position: relative;
+    right: 30px;
+}
+#box3{
+    background-color: maroon;
+    position: fixed;
+    top: 200px;
+}
+#box4{
+    background-color: peachpuff;
+    position: sticky;
+  
+    top:30px;
+}
+#box5{
+    background-color: navy;
+    position: absolute;
+    bottom: 20px;
+}
